@@ -268,7 +268,7 @@ const Email = () => {
                     scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200"
                   rows={6}
                   name="message"
-                  placeholder="Today was the most glorious day, for I had tacos for lunch..."
+                  placeholder="Today was the most glorious day, for I had tacos for lunch... Oh I did not notice you there. Alright so, you can send us a message here. Just start typing to dismiss this, and hit send when ready."
                   value={message}
                   onChange={e => {
                     setMessage(e.target.value);
