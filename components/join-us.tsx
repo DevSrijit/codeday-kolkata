@@ -9,7 +9,7 @@ function JoinUs() {
       <div className="absolute top-0 left-0">
         <div className="relative top-10">
           <Image
-            src="/img/thisGuy.svg"
+            src="/img/thisGuy.png"
             alt="This Guy!"
             width={200}
             height={200}
@@ -21,7 +21,7 @@ function JoinUs() {
                         flex flex-row justify-end"
         >
           <Image
-            src="/img/dino.svg"
+            src="/img/dino.png"
             alt="Dino!"
             width={200}
             height={200}
@@ -30,7 +30,7 @@ function JoinUs() {
         </div>
         <div className="relative -top-10">
           <Image
-            src="/img/floatCat.svg"
+            src="/img/floatCat.png"
             alt="Float Cat!"
             width={200}
             height={200}
