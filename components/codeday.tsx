@@ -88,7 +88,7 @@ const HackNight = () => {
                     alumni through 515 events conducted worldwide. 💫 💻
                   </p>
                   <p>
-                    So, how much does this event cost to enter ?<br></br>- It's{' '}
+                    So, how much does this event cost to enter ?<br></br>- It&apos;s{' '}
                     <span className="font-bold">free</span> of cost.
                   </p>
                   <p>
