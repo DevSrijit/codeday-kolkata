@@ -112,7 +112,10 @@ const Workshops = ({
               </div>
               <button className="flex justify-center items-center border-2 border-slate-800 p-2 w-48 font-bold rounded hover:bg-slate-800 hover:text-white transition ease-in-out duration-100 leading-tight">
                 <Link legacyBehavior href="#">
-                  <a href="https://events.purduehackers.com" target="_blank">
+                  <a
+                    href="https://event.codeday.org/en-US/kolkata"
+                    target="_blank"
+                  >
                     <p className="text-center text-xl">
                       View Upcoming Workshops
                     </p>

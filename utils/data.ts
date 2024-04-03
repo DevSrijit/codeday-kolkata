@@ -97,7 +97,7 @@ export const discordMessages = [
     pfpImageSrc:
       'https://cdn.discordapp.com/avatars/486018241244954635/7fe1faa59f24d125341e59a722bd9261?size=160',
     content: `I added join codes to Showcase. Now instead of members needing to give their username to a group leader, the group leader can give them a code and they can join by themselves on the "new project" page.\n
-    They can still be added by username too. Either works.`,
+    They can still be added by username too. Either works.`
   },
   {
     channel: '#lounge',
@@ -112,12 +112,13 @@ export const discordMessages = [
     pfpImageSrc:
       'https://cdn.discordapp.com/avatars/903215784602501150/3332cdff124f27dcf0190f61d5be9698?size=160',
     content: `Elon always had this obsession with X, he even wanted to push it in PayPal but PayPal folks didn't like it, and now you see him saying it'll be "everything app" that's his very old ambition
-    `,
+    `
   },
   {
     channel: '#magic-happening',
     username: 'Gaurav Pandey',
-    pfpImageSrc: 'https://cdn.discordapp.com/avatars/971020082559979610/08a476da7d2270d7f55ba2d2711b8d3b?size=1024',
+    pfpImageSrc:
+      'https://cdn.discordapp.com/avatars/971020082559979610/08a476da7d2270d7f55ba2d2711b8d3b?size=1024',
     content: `CodeDay Delhi Summer 2023`,
     imageSrc: `https://cdn.discordapp.com/attachments/689895768269783088/1145729031283683470/WhatsApp_Image_2023-08-28_at_14.16.51.jpeg?ex=661d3bcf&is=660ac6cf&hm=7a78d6d3f91254498d70a5672f5a8ad095e0c901c26a55a548f398e7c40c5991&`,
     imageAlt: `A moment from CodeDay Delhi Summer 2023`
@@ -157,22 +158,22 @@ export const workshopEvents = [
   {
     name: 'Intro to AI & ML',
     date: new Date('2023-07-23T00:00:00'),
-    description: `I mean yeah we did something. I'm not good at writing. We did cool stuff that detected cats and stuff ig.`,
-    img: '/img/codeday-text-black.png',
+    description: `In this workshop, attended by over 30 students, we delved into the fundamentals of MNIST classification and its underlying mathematics. Subsequently, all students utilized TensorFlow Lite to develop a website capable of distinguishing between various animals through Image Classification.`,
+    img: '/img/workshop1.png',
     location: 'IdeaPod Kolkata'
   },
   {
     name: 'Music Production',
     date: new Date('2023-07-23T00:00:00'),
-    description: `I asked avan to write these dw. It's his job now hehe.`,
-    img: '/img/codeday-text-black.png',
+    description: `CodeDay isn't all about coding. We try to incorporate a variety of workshops to cater to everyone's interests. In this workshop, students learned the basics of music production and created their own beats using an industry leading audio software. This wasn't some basic beat making tutorial, students were taught the science and technology behind audio manipulation.`,
+    img: '/img/workshop2.png',
     location: 'IdeaPod Kolkata'
   },
   {
     name: 'Game development',
     date: new Date('2023-07-23T00:00:00'),
-    description: `Scratch doesn't even fall under game dev lmfao but anyways. Gotta pretend. GUYS FIND PICTURES FOR EACH OF THESE WORKSHOPS THO.`,
-    img: '/img/codeday-text-black.png',
+    description: `Who doesn't love games? In this workshop, students were taught the basics of game development using Scratch. This workshop was targetted towards younger students who were new to programming. The workshop was a huge success which encouraged several participants to ship their first game!`,
+    img: '/img/workshop3.png',
     location: 'IdeaPod Kolkata'
   }
 ];
