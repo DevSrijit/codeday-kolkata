@@ -2,7 +2,8 @@ import { NextPage } from 'next';
 import { useEffect, useState, useMemo } from 'react';
 import Head from 'next/head';
 import { GetStaticProps } from 'next';
-
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import Hero from '../components/hero';
 import Email from '../components/email';
 import Community from '../components/community';
@@ -83,6 +84,8 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
           <meta property="og:type" content="website" />
           <title>CodeDay Kolkata</title>
         </Head>
+        <Analytics />
+        <SpeedInsights />
         <Hero />
         <hr className="border-2 border-black border-dashed" />
         <Email />
