@@ -3,7 +3,7 @@ import {
   SiGithub as Github,
   SiThreads as Threads,
   SiLinkedin as Linkedin,
-  SiX as X,
+  SiX as X
 } from '@icons-pack/react-simple-icons';
 
 const FooterLinks = () => (

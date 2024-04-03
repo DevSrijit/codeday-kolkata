@@ -14,10 +14,10 @@ const Community = () => (
           </h1>
           <p>
             Joining a CodeDay event is like stepping into a world of endless
-            possibilities! It's not just about coding; it's about making
+            possibilities! It&apos;s not just about coding; it&apos;s about making
             friends, growing skills, and having a blast. Imagine learning,
             creating, and laughing together in a super welcoming setting. And
-            hey, the CodeDay Discord server? It's like a cozy online hangout
+            hey, the CodeDay Discord server? It&apos;s like a cozy online hangout
             where you can keep the fun going, get help, and connect with awesome
             folks.
             <br></br>
