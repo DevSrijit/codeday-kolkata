@@ -170,7 +170,7 @@ export const workshopEvents = [
     location: 'IdeaPod Kolkata'
   },
   {
-    name: 'Game development',
+    name: 'Game Development',
     date: new Date('2023-07-23T00:00:00'),
     description: `Who doesn't love games? In this workshop, students were taught the basics of game development using Scratch. This workshop was targetted towards younger students who were new to programming. The workshop was a huge success which encouraged several participants to ship their first game!`,
     img: '/img/workshop3.png',
