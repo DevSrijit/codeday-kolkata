@@ -7,7 +7,7 @@ import Hero from '../components/hero';
 import Email from '../components/email';
 import Community from '../components/community';
 import Workshops from '../components/workshops';
-import HackNight from '../components/codeday';
+import CodeDay from '../components/codeday';
 import JoinUs from '../components/join-us';
 import { workshopEvents } from '@/utils/data';
 
@@ -71,16 +71,13 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
     <DraggableContext.Provider value={value}>
       <div className="flex flex-col min-h-screen overflow-hidden">
         <Head>
-          <meta property="og:site_name" content="Purdue Hackers" />
-          <meta property="og:name" content="Purdue Hackers" />
-          <meta property="og:title" content="Purdue Hackers" />
-          <meta
-            property="og:image"
-            content="https://raw.githubusercontent.com/purduehackers/site/main/public/img/intro.png"
-          />
+          <meta property="og:site_name" content="CodeDay Kolkata" />
+          <meta property="og:name" content="CodeDay Kolkata" />
+          <meta property="og:title" content="CodeDay Kolkata" />
+          <meta property="og:image" content="/img/intro.png" />
           <meta
             property="og:description"
-            content="A community of students who collaborate, learn, and build kick-ass technical projects 💛⚡️"
+            content="A 24 hours coding event where students collaborate, learn, and build kick-ass technical projects 💛⚡️"
           />
           <meta name="twitter:card" content="summary_large_image" />
           <meta property="og:type" content="website" />
@@ -95,7 +92,7 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
           fetchedEvents={fetchedEvents}
           randomBarCode={randomBarCode}
         />
-        <HackNight />
+        <CodeDay />
         <JoinUs />
         <Footer />
       </div>

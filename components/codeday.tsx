@@ -17,7 +17,7 @@ import { faWindows } from '@fortawesome/free-brands-svg-icons';
 import SprayCanvas from './spray-canvas';
 import Point2D from '../utils/Point2D';
 
-const HackNight = () => {
+const CodeDay = () => {
   const { draggable } = useContext(DraggableContext);
   const [cursorPosition, setCursorPosition] = useState<Point2D>({ x: 0, y: 0 });
 
@@ -88,8 +88,8 @@ const HackNight = () => {
                     alumni through 515 events conducted worldwide. 💫 💻
                   </p>
                   <p>
-                    So, how much does this event cost to enter ?<br></br>- It&apos;s{' '}
-                    <span className="font-bold">free</span> of cost.
+                    So, how much does this event cost to enter ?<br></br>-
+                    It&apos;s <span className="font-bold">free</span> of cost.
                   </p>
                   <p>
                     Join us <span className="font-bold">this year</span> for{' '}
@@ -277,4 +277,4 @@ const HackNight = () => {
   );
 };
 
-export default HackNight;
+export default CodeDay;

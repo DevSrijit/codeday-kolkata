@@ -1,32 +1,24 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import nodemailer from 'nodemailer';
+import { Resend } from 'resend';
 
-export default function contact(req: NextApiRequest, res: NextApiResponse) {
-  const PASSWORD = process.env.SEND_APP_PASSWORD;
+const resend = new Resend(process.env.RESEND_API_KEY);
 
-  const transporter = nodemailer.createTransport({
-    port: 465,
-    host: 'smtp.gmail.com',
-    auth: {
-      user: 'ph.ghostmailer@gmail.com',
-      pass: `${PASSWORD}`
-    },
-    secure: true
-  });
-  const mailData = {
-    from: 'ph.ghostmailer@gmail.com',
-    to: 'purduehackers@gmail.com',
+export default async function contact(
+  req: NextApiRequest,
+  res: NextApiResponse
+) {
+  const { data, error } = await resend.emails.send({
+    from: 'site@codedaykolkata.live',
+    to: ['srijit@codeday.org', 'ramiz@codeday.org'],
     subject: `[Received from Site] : ${req.body.subject}`,
     text: `Message from ${req.body.userEmail}\n` + req.body.message,
     html: `<p>Message from ${req.body.userEmail}</p>
-                <p>${req.body.message}</p>`
-  };
-
-  transporter.sendMail(mailData, (err, info) => {
-    if (err) {
-      return res.status(500).json({ error: err.message });
-    } else {
-      return res.status(200).json({ error: '' });
-    }
+    <p>${req.body.message}</p>`
   });
+
+  if (error) {
+    return res.status(400).json(error);
+  }
+
+  res.status(200).json(data);
 }
