@@ -237,7 +237,7 @@ const Email = () => {
                     className="text-mxs border-none w-full py-1 no-ring"
                     type="email"
                     name="email"
-                    placeholder="wackhacker@gmail.com"
+                    placeholder="wackycoder@gmail.com"
                     value={userEmail}
                     onChange={e => {
                       setUserEmail(e.target.value);
