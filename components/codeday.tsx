@@ -159,7 +159,7 @@ const HackNight = () => {
                                         flex items-center justify-center"
                                     >
                                       <Image
-                                        src="/img/logo.webp"
+                                        src="/img/logo_red.webp"
                                         alt="troll face"
                                         width={35}
                                         height={35}
