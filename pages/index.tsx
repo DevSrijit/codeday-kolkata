@@ -15,7 +15,6 @@ import {
   DraggableContext,
   DraggableInterface
 } from '../context/DraggableContext';
-import { fetchEvents } from '../utils/fetchEvents';
 import Footer from '../components/footer';
 
 interface HomeFetchedEventsProps {
