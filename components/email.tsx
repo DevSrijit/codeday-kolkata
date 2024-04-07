@@ -499,7 +499,7 @@ const Email = () => {
                     <p>
                       If you go to CodeDay—whether you&apos;ve never written
                       code before, or are highly technical, whether you&apos;re
-                      a jetbrains/vscode user or a notepad user—
+                      a jetbrains/vscode/vim user or a notepad user—
                       <span className="font-bold">
                         we invite you to join our event.
                       </span>
