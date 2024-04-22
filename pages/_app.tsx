@@ -11,6 +11,7 @@ import {
   Alegreya
 } from 'next/font/google';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import Script from 'next/script';
 
 const spaceGrotesk = Space_Grotesk({
   weight: ['400', '700'],
@@ -58,6 +59,7 @@ export default function App({ Component, pageProps }: AppProps) {
         className={`${spaceGrotesk.variable} ${ibmPlexSerif.variable} ${inter.variable} ${spaceMono.variable} ${pressStart.variable} ${alegreya.variable} font-main`}
       >
         <Component {...pageProps} />
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
       </main>
       <Analytics />
     </>
