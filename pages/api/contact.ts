@@ -8,7 +8,7 @@ export default async function contact(
   res: NextApiResponse
 ) {
   const { data, error } = await resend.emails.send({
-    from: 'site@codedaykolkata.live',
+    from: 'site@cdkol.live',
     to: ['srijit@codeday.org', 'ramiz@codeday.org'],
     subject: `[Received from Site] : ${req.body.subject}`,
     text: `Message from ${req.body.userEmail}\n` + req.body.message,
