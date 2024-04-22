@@ -27,7 +27,7 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
   fetchedEvents,
   randomBarCode
 }) => {
-  console.log(fetchedEvents);
+  //console.log(fetchedEvents);
   // Disable draggable feature on small screen
   const [windowSize, setWindowSize] = useState({
     width: 0,
