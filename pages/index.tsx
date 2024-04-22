@@ -72,24 +72,6 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
     <DraggableContext.Provider value={value}>
       <div className="flex flex-col min-h-screen overflow-hidden">
         <Head>
-          <meta property="og:site_name" content="CodeDay Kolkata" />
-          <meta property="og:url" content="https://cdkol.live/" />
-          <meta property="og:name" content="CodeDay Kolkata" />
-          <meta property="og:title" content="CodeDay Kolkata" />
-          <meta property="og:image" content="/img/intro.png" />
-          <meta
-            property="og:description"
-            content="A 24 hours coding event where students collaborate, learn, and build kick-ass technical projects 💛⚡️"
-          />
-          <meta property="twitter:url" content="https://cdkol.live/" />
-          <meta property="twitter:title" content="CodeDay Kolkata" />
-          <meta
-            property="twitter:description"
-            content="A 24 hours coding event where students collaborate, learn, and build kick-ass technical projects 💛⚡️"
-          />
-          <meta property="twitter:image" content="/img/intro.png" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta property="og:type" content="website" />
           <title>CodeDay Kolkata</title>
         </Head>
         <Analytics />
