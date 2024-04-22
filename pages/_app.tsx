@@ -11,6 +11,8 @@ import {
   Alegreya
 } from 'next/font/google';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import Script from 'next/script';
+import Image from 'next/image';
 
 const spaceGrotesk = Space_Grotesk({
   weight: ['400', '700'],
@@ -57,7 +59,20 @@ export default function App({ Component, pageProps }: AppProps) {
       <main
         className={`${spaceGrotesk.variable} ${ibmPlexSerif.variable} ${inter.variable} ${spaceMono.variable} ${pressStart.variable} ${alegreya.variable} font-main`}
       >
+        <Script
+          data-collect-dnt="true"
+          async
+          defer
+          src="https://analytics.cdkol.live/latest.js"
+        ></Script>
         <Component {...pageProps} />
+        <noscript>
+          <Image
+            src="https://analytics.cdkol.live/noscript.gif?collect-dnt=true"
+            alt=""
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </noscript>
       </main>
       <Analytics />
     </>
