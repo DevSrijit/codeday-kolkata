@@ -10,7 +10,7 @@ export default function Document() {
           content="CodeDay Kolkata is a vibrant, inclusive gathering where students of all backgrounds explore the joy of coding through creativity and collaboration."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:url" content="https://cdkol.live/" />
         <meta property="og:title" content="CodeDay Kolkata" />
         <meta
           property="og:description"
@@ -18,11 +18,11 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          content="https://metatags.io/images/meta-tags.png"
+          content="https://cdkol.live/img/cdk-logo.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:url" content="https://cdkol.live/" />
         <meta property="twitter:title" content="CodeDay Kolkata" />
         <meta
           property="twitter:description"
@@ -30,7 +30,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          content="https://metatags.io/images/meta-tags.png"
+          content="https://cdkol.live/img/cdk-logo.png"
         />
 
         <meta
