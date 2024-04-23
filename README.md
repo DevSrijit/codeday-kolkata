@@ -1,3 +1,5 @@
 # site
 
-The new landing page for Purdue Hackers ✨⚡️
+This is the official website of CodeDay Kolkata.
+
+View live at cdkol.live.
