@@ -1,4 +1,4 @@
-## CodeDay Kolkata 2024
+# CodeDay Kolkata 2024
 
 This is the website for CodeDay Kolkata hosted at [here](cdkol.live). This website is built using Next.js, Tailwind CSS, and Resend API.
 
