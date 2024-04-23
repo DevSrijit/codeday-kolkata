@@ -37,7 +37,7 @@ export default function Document() {
         <meta name="robots" content="index, follow" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
-        <meta name="revisit-after" content="2 days"></meta>
+        <meta name="revisit-after" content="2 days" />
       </Head>
       <body>
         <Main />

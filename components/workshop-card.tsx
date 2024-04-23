@@ -13,7 +13,7 @@ const WorkshopCard = (props: IEvent) => {
         {props.name}
         <p className="text-slate-500">{date.toDateString()}</p>
         <div className="mt-2 h-[168px] overflow-scroll text-base text-gray-700">
-          <div dangerouslySetInnerHTML={{ __html: parsedDescription }}></div>
+          <div dangerouslySetInnerHTML={{ __html: parsedDescription }} />
         </div>
       </div>
       <div className="relative mx-6">
