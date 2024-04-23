@@ -276,7 +276,7 @@ const Email = () => {
                     setStatusColor(StatusColor.Editing);
                   }}
                   required
-                ></textarea>
+                 />
                 <div className="flex items-center justify-between p-2 border-t-2 border-black bg-gray-100">
                   <button
                     className="email-btn bg-pink-300"
@@ -354,7 +354,7 @@ const Email = () => {
                   <div className="flex justify-between">
                     <div className="flex items-center">
                       {!read[i] && (
-                        <div className="bg-blue-400 w-2 h-2 rounded ml-1 mr-4"></div>
+                        <div className="bg-blue-400 w-2 h-2 rounded ml-1 mr-4" />
                       )}
                       {open[i] && (
                         <FontAwesomeIcon
@@ -552,7 +552,7 @@ const Email = () => {
                       <div className="flex flex-col gap-y-4 text-mxs overflow-x-hidden">
                         <p
                           dangerouslySetInnerHTML={{ __html: email.content }}
-                        ></p>
+                         />
                       </div>
                     </div>
                   </div>

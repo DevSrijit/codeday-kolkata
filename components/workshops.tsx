@@ -35,7 +35,7 @@ const Workshops = ({
                     alt="CodeDay Kolkata Logo"
                     layout="fill"
                     objectFit="contain"
-                  ></Image>
+                   />
                 </div>
               </div>
             </div>
@@ -51,14 +51,14 @@ const Workshops = ({
                   alt="mysterious barcode"
                   width={200}
                   height={40}
-                ></Image>
+                 />
                 <p className="overflow-hidden text-sm tracking-widest text-center">
                   {randomBarCode}
                 </p>
               </div>
             </div>
           </div>
-          <div className="w-full h-0.5 mt-3 bg-slate-700"></div>
+          <div className="w-full h-0.5 mt-3 bg-slate-700" />
           <div className="grid grid-cols-5 items-center sm:text-lg">
             {/* mayber link price to send us a coffee? */}
             <div className="text-sm text-center uppercase">Price %10</div>
@@ -67,11 +67,11 @@ const Workshops = ({
             </div>
             <div className="text-sm text-center uppercase">Issue #∞</div>
           </div>
-          <div className="w-full h-0.5 bg-slate-700"></div>
+          <div className="w-full h-0.5 bg-slate-700" />
           <div className="flex flex-col-reverse sm:flex-col">
             <div className="max-w-7xl mx-auto">
               <div className="flex flex-row items-center gap-1 mt-6 ml-4">
-                <div className="w-3.5 h-3.5 rounded-full bg-emerald-500 animate-pulse"></div>
+                <div className="w-3.5 h-3.5 rounded-full bg-emerald-500 animate-pulse" />
                 <p className="font-bold">
                   Past workshops from{' '}
                   <span className="underline hover:text-amber-500">
