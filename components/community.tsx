@@ -20,7 +20,7 @@ const Community = () => (
             setting. And hey, the CodeDay Discord server? It&apos;s like a cozy
             online hangout where you can keep the fun going, get help, and
             connect with awesome folks.
-            <br></br>
+            <br />
             Share what you&apos;ve made in{' '}
             <span className="channel-name">#magic-happening</span>, chat about
             rainbows in <span className="channel-name">#lounge</span>, get a
