@@ -14,7 +14,7 @@ export const emails = [
     content: "You're fired."
   },
   {
-    subject: `Hello There.`,
+    subject: "Hello There.",
     author: 'unknown',
     email: 'urmomisamom@gmail.com',
     color: 'lime',
@@ -86,10 +86,10 @@ export const discordMessages = [
     username: 'Lola Egherman',
     pfpImageSrc:
       'https://cdn.discordapp.com/avatars/352212467033833475/a_15859905c0eb51be7cf18aec8b952750?size=160',
-    content: ``,
+    content: "",
     imageSrc:
       'https://cdn.discordapp.com/attachments/689534362760642676/1100139006513123388/image.png?ex=661d7dca&is=660b08ca&hm=8deca5b6fb8c5d54e3a71947e2c5bb2a138a8ac0e9878dfa4b072609f4959f9c&',
-    imageAlt: `A meme showing the difference between courier transform and fourier transform`
+    imageAlt: "A meme showing the difference between courier transform and fourier transform"
   },
   {
     channel: '#lounge',
@@ -119,20 +119,20 @@ export const discordMessages = [
     username: 'Gaurav Pandey',
     pfpImageSrc:
       'https://cdn.discordapp.com/avatars/971020082559979610/08a476da7d2270d7f55ba2d2711b8d3b?size=1024',
-    content: `CodeDay Delhi Summer 2023`,
-    imageSrc: `https://cdn.discordapp.com/attachments/689895768269783088/1145729031283683470/WhatsApp_Image_2023-08-28_at_14.16.51.jpeg?ex=661d3bcf&is=660ac6cf&hm=7a78d6d3f91254498d70a5672f5a8ad095e0c901c26a55a548f398e7c40c5991&`,
-    imageAlt: `A moment from CodeDay Delhi Summer 2023`
+    content: "CodeDay Delhi Summer 2023",
+    imageSrc: "https://cdn.discordapp.com/attachments/689895768269783088/1145729031283683470/WhatsApp_Image_2023-08-28_at_14.16.51.jpeg?ex=661d3bcf&is=660ac6cf&hm=7a78d6d3f91254498d70a5672f5a8ad095e0c901c26a55a548f398e7c40c5991&",
+    imageAlt: "A moment from CodeDay Delhi Summer 2023"
   },
   {
     channel: '#lounge',
     username: 'Deven',
     pfpImageSrc:
       'https://cdn.discordapp.com/avatars/721682055477461004/8a59b513fb0dea6762161d7d855ccd5f?size=160',
-    content: `Tyler had a server under his bed iirc`
+    content: "Tyler had a server under his bed iirc"
   }
 ];
 
-export const workshopArticle = `Workshops are your main learning opportunity, happening in every event. A typical workshop lasts one hour, and is divided into two sections: 60 minutes for coding together, and 20-30 minutes for the "hacking" section, where hackers are challenged to take it further on their own.`;
+export const workshopArticle = 'Workshops are your main learning opportunity, happening in every event. A typical workshop lasts one hour, and is divided into two sections: 60 minutes for coding together, and 20-30 minutes for the "hacking" section, where hackers are challenged to take it further on their own.';
 
 export const madeWith = [
   'love',
@@ -158,21 +158,21 @@ export const workshopEvents = [
   {
     name: 'Intro to AI & ML',
     date: new Date('2023-07-23T00:00:00'),
-    description: `In this workshop, attended by over 30 students, we delved into the fundamentals of MNIST classification and its underlying mathematics. Subsequently, all students utilized TensorFlow Lite to develop a website capable of distinguishing between various animals through Image Classification.`,
+    description: "In this workshop, attended by over 30 students, we delved into the fundamentals of MNIST classification and its underlying mathematics. Subsequently, all students utilized TensorFlow Lite to develop a website capable of distinguishing between various animals through Image Classification.",
     img: '/img/workshop1.png',
     location: 'IdeaPod Kolkata'
   },
   {
     name: 'Music Production',
     date: new Date('2023-07-23T00:00:00'),
-    description: `CodeDay isn't all about coding. We try to incorporate a variety of workshops to cater to everyone's interests. In this workshop, students learned the basics of music production and created their own beats using an industry leading audio software. This wasn't some basic beat making tutorial, students were taught the science and technology behind audio manipulation.`,
+    description: "CodeDay isn't all about coding. We try to incorporate a variety of workshops to cater to everyone's interests. In this workshop, students learned the basics of music production and created their own beats using an industry leading audio software. This wasn't some basic beat making tutorial, students were taught the science and technology behind audio manipulation.",
     img: '/img/workshop2.png',
     location: 'IdeaPod Kolkata'
   },
   {
     name: 'Game Development',
     date: new Date('2023-07-23T00:00:00'),
-    description: `Who doesn't love games? In this workshop, students were taught the basics of game development using Scratch. This workshop was targetted towards younger students who were new to programming. The workshop was a huge success which encouraged several participants to ship their first game!`,
+    description: "Who doesn't love games? In this workshop, students were taught the basics of game development using Scratch. This workshop was targetted towards younger students who were new to programming. The workshop was a huge success which encouraged several participants to ship their first game!",
     img: '/img/workshop3.png',
     location: 'IdeaPod Kolkata'
   }

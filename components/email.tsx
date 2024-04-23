@@ -124,7 +124,7 @@ const Email = () => {
       supersecret(password) ===
       '104 9 2 8 16 19 88 71 40 59 85 85 59 38 73 69 42 56 84 71 43 50 20 38 47 68 71 0 4 71 66 22 91 125'
     ) {
-      alert(`Hmm, I wonder what else that password could do! Hehe`);
+      alert("Hmm, I wonder what else that password could do! Hehe");
       setPassword('');
     }
   }, [password]);
