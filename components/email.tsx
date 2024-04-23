@@ -276,7 +276,7 @@ const Email = () => {
                     setStatusColor(StatusColor.Editing);
                   }}
                   required
-                 />
+                />
                 <div className="flex items-center justify-between p-2 border-t-2 border-black bg-gray-100">
                   <button
                     className="email-btn bg-pink-300"
@@ -552,7 +552,7 @@ const Email = () => {
                       <div className="flex flex-col gap-y-4 text-mxs overflow-x-hidden">
                         <p
                           dangerouslySetInnerHTML={{ __html: email.content }}
-                         />
+                        />
                       </div>
                     </div>
                   </div>

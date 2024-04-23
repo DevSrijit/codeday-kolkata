@@ -35,7 +35,7 @@ const Workshops = ({
                     alt="CodeDay Kolkata Logo"
                     layout="fill"
                     objectFit="contain"
-                   />
+                  />
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ const Workshops = ({
                   alt="mysterious barcode"
                   width={200}
                   height={40}
-                 />
+                />
                 <p className="overflow-hidden text-sm tracking-widest text-center">
                   {randomBarCode}
                 </p>
