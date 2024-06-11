@@ -24,6 +24,9 @@ const Hero = () => {
             <h1 className="text-6xl font-bold text-center sm:text-8xl lg:text-9xl">
               CodeDay Kolkata
             </h1>
+            <h2 className="text-center mt-5 font-semibold">
+              CodeDay Kolkata 2024 is happening on July 27th to 28th, 2024 !
+            </h2>
           </div>
         </Draggable>
         <Draggable disabled={!draggable}>
@@ -36,6 +39,10 @@ const Hero = () => {
             </div>
           </div>
         </Draggable>
+        <button className="footer-btn bg-amber-300">
+          Register for CodeDay Kolkata 2024
+        </button>
+
         <Draggable disabled={!draggable}>
           <p className="text-lg font-bold sm:text-xl mt-10">
             (try dragging stuff in this website)

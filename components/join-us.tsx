@@ -52,9 +52,6 @@ function JoinUs() {
                         p-6 sm:p-12 sm:h-72 md:h-fit mb-16 sm:mb-5
                         w-2/3 lg:w-1/2 max-w-3xl min-w-fit md:mt-5"
         >
-          <a href="/volunteer" rel="noopener noreferrer" target="_blank">
-            <button className="footer-btn bg-amber-300">Volunteer</button>
-          </a>
           <a
             href="https://event.codeday.org/en-US/kolkata"
             rel="noopener noreferrer"
