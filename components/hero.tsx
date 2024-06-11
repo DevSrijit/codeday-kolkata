@@ -40,7 +40,13 @@ const Hero = () => {
           </div>
         </Draggable>
         <button className="footer-btn bg-amber-300">
-          Register for CodeDay Kolkata 2024
+          <a
+            href="https://event.codeday.org/en-US/kolkata"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Register for CodeDay Kolkata 2024
+          </a>
         </button>
 
         <Draggable disabled={!draggable}>
