@@ -44,6 +44,21 @@ const Linktree = () => {
             <div className="p-4 bg-white border-4 border-black rounded-sm shadow-blocks shadow-gray-800">
               <p className="text-lg font-bold sm:text-xl">
                 <a
+                  href="https://www.codeday.org/help/codeday/student"
+                  className="transition hover:scale-110 hover:text-[#c32aa3]"
+                  target="_blank"
+                >
+                  Frequently Asked Questions (FAQs) ❓
+                </a>
+              </p>
+            </div>
+          </div>
+        </Draggable>
+        <Draggable disabled={!draggable}>
+          <div className="w-10/12 mx-auto sm:w-1/2">
+            <div className="p-4 bg-white border-4 border-black rounded-sm shadow-blocks shadow-gray-800">
+              <p className="text-lg font-bold sm:text-xl">
+                <a
                   href="https://www.instagram.com/codeday_kolkata"
                   className="transition hover:scale-110 hover:text-[#c32aa3]"
                   target="_blank"
