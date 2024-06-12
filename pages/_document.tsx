@@ -35,7 +35,7 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:type" content="website" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="2 days" />
       </Head>

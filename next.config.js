@@ -10,7 +10,12 @@ const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'mdx'],
   images: {
-    domains: ['cdn.sanity.io', 'cdn.discordapp.com']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**'
+      }
+    ]
   }
 };
 

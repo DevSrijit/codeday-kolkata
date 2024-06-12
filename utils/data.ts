@@ -87,8 +87,7 @@ export const discordMessages = [
     pfpImageSrc:
       'https://cdn.discordapp.com/avatars/352212467033833475/a_15859905c0eb51be7cf18aec8b952750?size=160',
     content: ``,
-    imageSrc:
-      'https://cdn.discordapp.com/attachments/689534362760642676/1100139006513123388/image.png?ex=661d7dca&is=660b08ca&hm=8deca5b6fb8c5d54e3a71947e2c5bb2a138a8ac0e9878dfa4b072609f4959f9c&',
+    imageSrc: 'https://cloud-nk3irdhyx-hack-club-bot.vercel.app/0image.png',
     imageAlt: `A meme showing the difference between courier transform and fourier transform`
   },
   {
@@ -117,10 +116,9 @@ export const discordMessages = [
   {
     channel: '#magic-happening',
     username: 'Gaurav Pandey',
-    pfpImageSrc:
-      'https://cdn.discordapp.com/avatars/971020082559979610/08a476da7d2270d7f55ba2d2711b8d3b?size=1024',
+    pfpImageSrc: 'https://cloud-oiont082p-hack-club-bot.vercel.app/0image.png',
     content: `CodeDay Delhi Summer 2023`,
-    imageSrc: `https://cdn.discordapp.com/attachments/689895768269783088/1145729031283683470/WhatsApp_Image_2023-08-28_at_14.16.51.jpeg?ex=661d3bcf&is=660ac6cf&hm=7a78d6d3f91254498d70a5672f5a8ad095e0c901c26a55a548f398e7c40c5991&`,
+    imageSrc: `https://cloud-kfblhvtie-hack-club-bot.vercel.app/0image.png`,
     imageAlt: `A moment from CodeDay Delhi Summer 2023`
   },
   {
