@@ -45,7 +45,9 @@ const Hero = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            Register for CodeDay Kolkata 2024
+            {typeof window !== 'undefined' && window.innerWidth < 640
+              ? 'Register Now'
+              : 'Register for CodeDay Kolkata 2024 🚀'}
           </a>
         </button>
 
