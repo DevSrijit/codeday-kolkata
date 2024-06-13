@@ -20,7 +20,7 @@ const Linktree = () => {
               CodeDay Kolkata
             </h1>
             <h3 className="text-center font-medium pt-3">
-              Find out links down below !
+              Find our links down below !
             </h3>
           </div>
         </Draggable>
