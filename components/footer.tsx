@@ -33,6 +33,12 @@ const Footer = () => {
           </span>
         </p>
         <FooterLinks />
+        <p className="text-xs mt-4">
+          The Vercel, Postman, .XYZ, and CodeDay logos are trademarks of their
+          respective owners and are used here to acknowledge the support
+          provided to us. No endorsement or ownership by us is implied, nor
+          should it be inferred.
+        </p>
       </div>
     </div>
   );
