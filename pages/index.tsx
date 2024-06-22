@@ -17,6 +17,7 @@ import {
   DraggableInterface
 } from '../context/DraggableContext';
 import Footer from '../components/footer';
+import Sponsors from '@/components/sponsors';
 
 interface HomeFetchedEventsProps {
   fetchedEvents: Array<any>;
@@ -81,6 +82,7 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
         <Email />
         <hr className="border-2 border-black border-dashed" />
         <Community />
+        <Sponsors />
         <Workshops
           fetchedEvents={fetchedEvents}
           randomBarCode={randomBarCode}
