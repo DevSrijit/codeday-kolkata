@@ -14,7 +14,7 @@ const Footer = () => {
           Made with {randomMadeWith} •{' '}
           <span className="underline underline-offset-4 decoration-2">
             <a
-              href="https://github.com/purduehackers/site"
+              href="https://github.com/CodeDay-Kolkata/site"
               target="_blank"
               className="decoration-amber-400 dark:decoration-amber-500 hover:decoration-[3px]"
             >
@@ -24,7 +24,7 @@ const Footer = () => {
           •{' '}
           <span className="underline underline-offset-4 decoration-2">
             <a
-              href="https://vercel.com?utm_source=purdue-hackers&utm_campaign=oss"
+              href="https://vercel.com"
               target="_blank"
               className="decoration-amber-400 dark:decoration-amber-500 hover:decoration-[3px]"
             >
