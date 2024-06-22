@@ -57,7 +57,7 @@ const items = [
   {
     title: '.XYZ',
     description:
-      ".XYZ is the world's favorite new domain ending. It's short, memorable, and bold",
+      ".XYZ is the world's favorite new domain ending. It's short, memorable, and bold.",
     header: (
       <Skeleton src="https://cloud-lfm8w3gzt-hack-club-bot.vercel.app/0xyz-logo-color.svg" />
     )
