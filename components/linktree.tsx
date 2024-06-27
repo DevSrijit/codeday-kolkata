@@ -17,7 +17,7 @@ const Linktree = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-center py-12 lg:py-0 lg:h-screen bg-[#adabe7] gap-y-4 h-screen sm:h-screen">
+      <div className="flex flex-col items-center justify-center py-12 lg:py-0 min-h-screen bg-[#adabe7] gap-y-4 overflow-auto">
         <Draggable disabled={!draggable}>
           <div className="w-10/12 p-6 border-4 border-black rounded-sm shadow-blocks shadow-gray-800 bg-[#ff686b] lg:w-auto">
             <h1 className="text-4xl font-bold text-center sm:text-3xl lg:text-8xl">
@@ -39,7 +39,7 @@ const Linktree = () => {
                 >
                   {' '}
                   <SiLinktree className="inline-block w-6 h-6 mr-2" /> CodeDay
-                  Kolkata&apos;s Website 🌐
+                  Kolkata 🌐
                 </a>
               </p>
             </div>
