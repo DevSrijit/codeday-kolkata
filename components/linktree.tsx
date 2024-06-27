@@ -39,7 +39,7 @@ const Linktree = () => {
                 >
                   {' '}
                   <SiLinktree className="inline-block w-6 h-6 mr-2" /> CodeDay
-                  Kolkata's Website 🌐
+                  Kolkata&apos;s Website 🌐
                 </a>
               </p>
             </div>
