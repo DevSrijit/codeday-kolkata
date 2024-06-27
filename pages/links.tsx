@@ -20,7 +20,7 @@ export default function Links() {
         <meta property="og:url" content="https://cdkol.live/" />
         <meta property="og:name" content="CodeDay Kolkata" />
         <meta property="og:title" content="CodeDay Kolkata" />
-        <meta property="og:image" content="https://cdkol.live/img/intro.png" />
+        <meta property="og:image" content="https://cdkol.live/img/link.png" />
         <meta
           property="og:description"
           content="A 24 hours coding event where students collaborate, learn, and build kick-ass technical projects 💛⚡️"
@@ -33,7 +33,7 @@ export default function Links() {
         />
         <meta
           property="twitter:image"
-          content="https://cdkol.live/img/intro.png"
+          content="https://cdkol.live/img/link.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:type" content="website" />
