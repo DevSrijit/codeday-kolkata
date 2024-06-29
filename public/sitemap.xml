@@ -4,6 +4,24 @@
   <loc>http://cdkol.live/</loc>
   <priority>1.0</priority>
   <changefreq>daily</changefreq>
-  <lastmod>2024-04-22</lastmod>
+  <lastmod>2024-06-29</lastmod>
+</url>
+<url>
+  <loc>http://cdkol.live/links</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-06-29</lastmod>
+</url>
+<url>
+  <loc>http://cdkol.live/hype</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-06-29</lastmod>
+</url>
+<url>
+  <loc>http://cdkol.live/register</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2024-06-29</lastmod>
 </url>
 </urlset>
