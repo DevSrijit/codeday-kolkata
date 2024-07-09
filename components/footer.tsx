@@ -30,6 +30,16 @@ const Footer = () => {
             >
               Powered by ▲Vercel
             </a>
+          </span>{' '}
+          •{' '}
+          <span className="underline underline-offset-4 decoration-2">
+            <a
+              href="https://cdn.cdkol.live/privacy-policy"
+              target="_blank"
+              className="decoration-amber-400 dark:decoration-amber-500 hover:decoration-[3px]"
+            >
+              Privacy Policy
+            </a>
           </span>
         </p>
         <FooterLinks />
