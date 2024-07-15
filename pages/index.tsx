@@ -75,7 +75,7 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
       setRedirecting(true);
       setTimeout(() => {
         window.location.href = 'https://event.codeday.org/en-US/kolkata';
-      }, 2000000);
+      }, 2000);
     }
   }, []);
 
