@@ -110,8 +110,20 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
           </p>
           <p className="text-lg">
             If you&apos;d like to experience our own website, please visit{' '}
-            <a href="#" className="text-primary underline">
+            <a
+              href="https://site.cdkol.live"
+              className="text-primary underline"
+              target="_blank"
+            >
               site.cdkol.live
+            </a>{' '}
+            or{' '}
+            <a
+              href="https://cdkol.xyz"
+              className="text-primary underline"
+              target="_blank"
+            >
+              cdkol.xyz
             </a>
             .
           </p>
