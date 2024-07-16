@@ -69,7 +69,7 @@ const Home: NextPage<HomeFetchedEventsProps> = ({
     const currentISTDate = new Date(
       currentDate.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' })
     );
-    const targetDate = new Date('2024-07-17T00:00:00+05:30'); // Change the target date as needed
+    const targetDate = new Date('2024-07-27T00:00:00+05:30'); // Change the target date as needed
 
     if (currentISTDate < targetDate) {
       setRedirecting(true);
